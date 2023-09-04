@@ -2,9 +2,9 @@
  * Simple testbench for UART.  Loop the rx and tx pins to each other and send
  * incrementing bytes, make sure that we receive what we expected.
  */
-`include "uart.v"
+`include "pes_uart.v"
 
-module uart_tx_test();
+module pes_uart_tb();
 
 reg [7:0] data = 0;
 reg clk = 0;
