@@ -130,6 +130,7 @@ write_verilog -noattr pes_bupc_net.v
 type ```show``` to see the netlist
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/cf04286d-f1ed-44c3-976d-b3620865ecfb)
 
+# GLS
 Now using the netlist file, we verify the waveform once more
 To do this we run the following command ensuring everything is in the same directory
 ```iverilog primitives.v sky130_fd_sc_hd.v pes_bupc_net.v pes_bupc_tb.v
