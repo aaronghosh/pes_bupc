@@ -12,3 +12,4 @@ with gtkwave
 # RTL Synthesis
 
 Invoke using Yosys
+![image](https://github.com/aaronghosh/pes_uart/assets/124378527/6d560e08-3871-4c47-8814-7f6a877c0539)
