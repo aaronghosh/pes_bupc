@@ -1,5 +1,26 @@
 # pes_binary_up_counter
 
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/8825bf25-0567-4c50-a083-56a2572dc8c0)
+
+## Introduction
+
+A binary up counter is a fundamental digital circuit used in various applications to count upwards in binary form. It is an essential component in digital electronics, serving as a simple yet versatile tool for tasks such as clock signal generation, data sequencing, and more.
+
+### What is a Binary Up Counter?
+
+- **Counting in Binary**: The binary up counter represents numbers in binary format, using flip-flops or registers to store each bit of the count. For instance, in a 4-bit binary up counter, you can count from 0000 to 1111 in binary, which is equivalent to 0 to 15 in decimal.
+
+- **Sequential Counting**: The counter increments by one with each clock pulse, making it a sequential or synchronous counter. It follows a specific counting sequence, making it suitable for tasks that require precise counting operations.
+
+- **Parallel Outputs**: A binary up counter has parallel output lines, where each output bit corresponds to a specific count value. These outputs can be used to trigger other digital logic components or as data inputs for further processing.
+
+- **Applications**: Binary up counters are widely used in digital systems for various purposes, such as timekeeping (e.g., digital clocks), data multiplexing, memory addressing, and more. They play a crucial role in dividing or scaling clock frequencies and generating precise timing signals.
+
+## Understanding Binary Up Counters
+
+Before diving into RTL synthesis and GDS generation, it's essential to have a clear understanding of how binary up counters work and their role in digital circuit design. This knowledge will guide you in designing and implementing your binary up counter efficiently.
+
+## Start RTL to GDS flow
 Using iverilog to compile all the codes
 ```
    gedit pes_bupc.v
