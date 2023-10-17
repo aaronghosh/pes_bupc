@@ -39,3 +39,4 @@ Now using the netlist file, we verify the waveform once more
 
 gtkwave pes_bupc_tb.vcd
 
+   # Ongoing, having a few errors generating netlist
