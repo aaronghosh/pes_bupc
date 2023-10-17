@@ -15,23 +15,24 @@ Invoke using Yosys
 ![image](https://github.com/aaronghosh/pes_uart/assets/124378527/6d560e08-3871-4c47-8814-7f6a877c0539)
 
  read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
- read_verilog ring_counter.v
- synth -top ring_counter
+ read_verilog pes_bupc.v
+ synth -top pes_bupc
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/43986d64-10aa-44eb-bd35-c1fb8c108619)
 
 Generate the netlist
 and display the design using the following command
 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/23fa9c79-46d8-4e83-bc5f-463860b7be95)
 
 To generate the netlist file we must type the command
+type show to see the netlist
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/cf04286d-f1ed-44c3-976d-b3620865ecfb)
 
 write_verilog -noattr pes_bupc_net.v
 Now using the netlist file, we verify the waveform once more
-![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/0102de2d-ef70-4705-acd7-e54b58c5cb18)
-
 
     Now we type ./a.out to generate the .vcd file.
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/dd904d59-9f87-48f2-b370-d76839c6b792)
 
 
     Ongoing, having a few errors generating netlist
@@ -39,4 +40,5 @@ Now using the netlist file, we verify the waveform once more
 
 gtkwave pes_bupc_tb.vcd
 
-   # Ongoing, having a few errors generating netlist
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/e3933356-efc9-4305-87b9-97670ea2ee8c)
+we find that the waveforms are matching and hence the rtl snthesis is done
