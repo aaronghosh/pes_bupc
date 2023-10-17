@@ -32,6 +32,9 @@ Now using the netlist file, we verify the waveform once more
 
 
     Now we type ./a.out to generate the .vcd file.
+
+
+    Ongoing, having a few errors generating netlist
     To see the waveform we type the command
 
 gtkwave pes_bupc_tb.vcd
