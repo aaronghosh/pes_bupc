@@ -23,7 +23,7 @@ A binary up counter is a fundamental digital circuit used in various application
 Before diving into RTL synthesis and GDS generation, it's essential to have a clear understanding of how binary up counters work and their role in digital circuit design. This knowledge will guide you in designing and implementing your binary up counter efficiently.
 
 ## Start RTL to GDS flow
-Using iverilog to compile all the codes
+
 ```
    gedit pes_bupc.v
 ```
@@ -118,6 +118,8 @@ this is the pes_bupc_tb code
 
 endmodule
 ```
+Using iverilog to compile all the codes
+```iverilog pes_bupc.v pes_bupc_tb.v```
 run using ```./a.out```
 
 ![image](https://github.com/aaronghosh/pes_uart/assets/124378527/d91a1ed8-e67c-4d56-b3c5-2e7f73ad05f2)
