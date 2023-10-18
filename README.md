@@ -1,7 +1,7 @@
 # pes_binary_up_counter
 
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/8825bf25-0567-4c50-a083-56a2572dc8c0)
-
+Originally was UART, however the main code was calling multiple codes and the waveform wasnt generating. Hence, changed to buc.
 ## Introduction
 
 A binary up counter is a fundamental digital circuit used in various applications to count upwards in binary form. It is an essential component in digital electronics, serving as a simple yet versatile tool for tasks such as clock signal generation, data sequencing, and more.
