@@ -179,6 +179,8 @@ use
 ``` mkdir pes_bupc ```
 In pes_bupc, write a config.json file. 
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/d0a9fe2b-2ead-481d-8ba2-7bc8e2281b23)
+
+
 in openlane directory,
 run the following commands
 ```make mount```
@@ -191,22 +193,35 @@ flow.tcl
 
 # prep design
 ```prep -design pes_bupc```
+
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/fc4cef6d-4e07-4f8e-8878-462344f4bfd8)
+
+
 use the command
 run_synthesis
+
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/448c3cae-0e7b-4c75-90c7-ecfb7fe6d639)
 
 the synthesis reports are given below
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/be5afe1a-bd7d-4f1b-b012-5eaaa70abfa2)
 
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/af44c73b-0615-4927-addc-4f252b4d186f)
+
+
 use run_floorplan
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/874e5a86-0ed8-4b93-82b3-b2b01ab2ef75)
 
 Floorplan results are given below
 
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/6fd9d31c-c56a-44fb-8795-af9968af78bc)
+
 Checking in the OpenLane/designs/pes_bupc/runs/RUN_2023.11.03_12.06.52/results/floorplan directory if a .def file exists.
+
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/b96c9e91-fbce-4966-b0fc-60d67fcf542b)
 
 
@@ -214,7 +229,10 @@ Checking in the OpenLane/designs/pes_bupc/runs/RUN_2023.11.03_12.06.52/results/f
 make sure your project is in the right directory.
 then run the magic command
 ```magic -T /home/Desktop/Downloads/sky130A.tech lef read ../../tmp/merged.nom.lef def read pes_bupc.def &```
+
+
 ```run_placement```
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/4753131f-a4b5-4bb4-95a7-77a636cd1c4d)
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/907ea2c4-2e90-4724-999d-bb9488a7e6a3)
 # CTS
