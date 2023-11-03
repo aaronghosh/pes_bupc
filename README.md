@@ -232,6 +232,7 @@ then run the magic command
 
 
 ```run_placement```
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/7af97b15-2a26-43c7-bdec-cc0b369a7f96)
 
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/4753131f-a4b5-4bb4-95a7-77a636cd1c4d)
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/907ea2c4-2e90-4724-999d-bb9488a7e6a3)
