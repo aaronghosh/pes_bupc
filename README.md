@@ -260,4 +260,4 @@ Reports
    - Internal Power = 2.04e-06 W
    - Switching Power = 5.61e-07
    - Leakage Power = 8.56e-11
-   - Total Power = 2.72e-06
+   - Total Power = 1.2e-04
