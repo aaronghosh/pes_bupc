@@ -257,7 +257,7 @@ Reports
 # Statistics
 
    - Area = 947 um2
-   - Internal Power = 2.04e-06 W
-   - Switching Power = 5.61e-07
-   - Leakage Power = 8.56e-11
-   - Total Power = 1.2e-04
+   - Internal Power = 1.03e-04 W
+   - Switching Power = 1.66e-05
+   - Leakage Power = 2.95e-10
+   - Total Power = 1.20e-04
