@@ -239,8 +239,14 @@ then run the magic command
 
 # CTS
 use the command ```run_cts```
+
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/d12e4a05-ce8f-4656-9f5e-fdfdc9e2511a)
+
+
 Reports
+
+
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/d53067e1-0ff8-45fc-a371-09e6163e94b4)
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/3a18c94d-9eff-4ad2-a727-9bd818a2c3cc)
 
