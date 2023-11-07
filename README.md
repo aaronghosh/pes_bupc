@@ -253,3 +253,11 @@ Reports
 
 # Skew Report
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/31623be2-6bed-4222-997a-cacfca2ac1bb)
+
+# Statistics
+
+   - Area = 947 um2
+   - Internal Power = 2.04e-06 W
+   - Switching Power = 5.61e-07
+   - Leakage Power = 8.56e-11
+   - Total Power = 2.72e-06
