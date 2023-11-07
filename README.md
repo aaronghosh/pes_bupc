@@ -240,4 +240,16 @@ then run the magic command
 # CTS
 use the command ```run_cts```
 ![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/d12e4a05-ce8f-4656-9f5e-fdfdc9e2511a)
+Reports
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/d53067e1-0ff8-45fc-a371-09e6163e94b4)
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/3a18c94d-9eff-4ad2-a727-9bd818a2c3cc)
 
+# Power Report
+
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/a0deec43-2ce3-4947-ad7c-c558d6eb34ab)
+
+# Area Report
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/f623fa37-1a79-4d44-b30a-4a7b878888fb)
+
+# Skew Report
+![image](https://github.com/aaronghosh/pes_bupc/assets/124378527/31623be2-6bed-4222-997a-cacfca2ac1bb)
